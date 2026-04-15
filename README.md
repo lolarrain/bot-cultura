@@ -68,7 +68,7 @@ Los resultados se guardan en la carpeta `resultados/` con el nombre `convocatori
 
 ## Automatización (opcional)
 
-Para ejecutar el bot de forma periódica, puedes programarlo con el **Programador de tareas de Windows** o con `cron` en Linux/macOS.
+Para ejecutar el bot de forma periódica, programarlo con el **Programador de tareas de Windows** o con `cron` en Linux/macOS.
 
 Ejemplo de cron (todos los días a las 9:00 AM):
 ```
