@@ -21,11 +21,22 @@ Scraper automático que monitorea las convocatorias abiertas en [fondosdecultura
 
 ---
 
+## Estructura del proyecto
+
+```
+bot-convocatorias/
+├── scraper.py          # Script principal
+├── requirements.txt    # Dependencias
+├── .env.example        # Plantilla de configuración
+├── .gitignore
+└── README.md
+```
+
 ## Instalación
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/tu-usuario/bot-convocatorias.git
+git clone https://github.com/lolarrain/bot-cultura
 cd bot-convocatorias
 
 # 2. Crea y activa un entorno virtual
@@ -77,13 +88,3 @@ Ejemplo de cron (todos los días a las 9:00 AM):
 
 ---
 
-## Estructura del proyecto
-
-```
-bot-convocatorias/
-├── scraper.py          # Script principal
-├── requirements.txt    # Dependencias
-├── .env.example        # Plantilla de configuración
-├── .gitignore
-└── README.md
-```
